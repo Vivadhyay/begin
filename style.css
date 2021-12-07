@@ -18,7 +18,7 @@
                     list-style: none;
                 }
                 
-                li:hover {
+                .list:hover {
                     color: darkgreen;
                     background-color: bisque;
                 }
@@ -29,24 +29,27 @@
                     margin-top: 10px;
                 }
                 
-                li {
+                .list {
                     padding: 20px;
                 }
                 
-                a {
+                .link {
                     color: white;
                     text-decoration: none;
                 }
                 
                 .dropbtn {
-                    color: white;
-                    background: none;
+                    color: black;
+                    background: white;
+                    border: white;
                     width: 4em;
                     height: 2em;
                     font-size: 30px;
-                    border-radius: 30px;
+                    border-radius: 20px;
                     cursor: grabbing;
-                    margin-right: 50px;
+                    margin-right: 10px;
+                    
+                    
                 }
                 .dropdown {
                     position: relative;
@@ -61,6 +64,7 @@
                     min-width: 160px;
                     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                     z-index: 1;
+                    right: 0;
                   }
                   
                   /* Links inside the dropdown */
@@ -78,7 +82,7 @@
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #703363;
+  background-color: #375a8f;
 }
 
                 @media only screen and (max-width:800px) {
@@ -90,7 +94,58 @@
                         position: relative;
                         display: inline-block;
                       }
+                      .work2{
+                          font: size 1em;
+                      }
+                      .btn2{
+                          display: flex;
+                          flex-direction: column;
+                      }
                 }
+                
+                .work{
+                    color: white;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    gap: 30px;
+                    background-color: rgba(50, 95, 153, 0.7);
+                    width: 100%;
+                    background-position: center;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 100px 0;
+                }
+                .bground{
+                    background-image:url(https://cdn-res.keymedia.com/cms/images/us/037/0223_637242926815337822.jpg);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 100%;
+                }
+                .work1{
+                    font-size: 4em;
+                }
+                .work2{
+                    width: 23em;
+                    text-align: center;
+                    font-size: 1.5em;
+                    
+                }
+                .btn1{
+                    color: white;
+                    background-color: green;
+                    font-size: 2rem;
+                    border-radius: 10px;
+                    border: white;
+                    padding: 20px;
+                    margin: 10px;
+                }
+                .btn1:hover{
+                    background-color: rgba(66, 197, 66, 0.671);
+                }
+
                 
                 .h1 {
                     width: 280px;
@@ -180,3 +235,29 @@
                     padding: 20px;
                     margin: 20px;
                 }
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #b8aaaa50;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 70px 0;
+        }        
+    
+        .data{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0 ;
+        gap: 80px;
+        font-size: 20px;
+        
+    }  
+    .last{
+        list-style-type: none;
+        display: inline;
+    } 
+    .link2{
+        color: black;
+    }         
